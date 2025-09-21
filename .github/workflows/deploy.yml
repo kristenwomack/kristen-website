@@ -1,0 +1,24 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ 001-build-a-website, main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.111.3'
+      - name: Build
+        run: |
+          cd site
+          hugo -D
+      - name: Deploy to Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site/public

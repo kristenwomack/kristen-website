@@ -1,0 +1,15 @@
+baseURL = "https://kristenwomack.github.io/"
+languageCode = "en-us"
+title = "Kristen Womack — Portfolio"
+
+[params]
+  author = "Kristen Womack"
+  description = "Talks, papers, and media mentions by Kristen Womack"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[permalinks]
+  talks = "/talks/:year/:month/:slug/"
+  papers = "/papers/:year/:month/:slug/"
+  media = "/media/:year/:month/:slug/"

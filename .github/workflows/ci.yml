@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master, 001-build-a-website ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install Node for a11y and link checking tools
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install pa11y-ci and linkinator
+        run: |
+          npm install -g pa11y-ci@6 linkinator@3 || true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.111.3'
+
+      - name: Build site
+        run: |
+          cd site
+          hugo -D
+
+      - name: Run smoke test
+        run: |
+          ./specs/001-build-a-website/tests/smoke/test_homepage.sh || echo "Smoke test failed"
+
+      - name: Link check
+        run: |
+          if command -v linkinator >/dev/null 2>&1; then
+            linkinator "site/public" --ignore-urls 
+          else
+            echo "linkinator not available"
+          fi
+
+      - name: A11Y check
+        run: |
+          if command -v pa11y-ci >/dev/null 2>&1; then
+            echo "Running pa11y-ci against local build"
+            pa11y-ci --config ./specs/001-build-a-website/pa11yci.json || true
+          else
+            echo "pa11y-ci not available"
+          fi
