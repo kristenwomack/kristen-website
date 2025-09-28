@@ -1,0 +1,415 @@
+{
+  "technology": [
+    {
+      "title": "A Year's Evolution of AI and APIs: A World Apart",
+      "url": "https://nordicapis.com/a-years-evolution-of-ai-and-apis-a-world-apart/",
+      "date": "2025-09-15",
+      "publication": "Nordic APIs",
+      "description": "Interview with Nordic APIs",
+      "tags": ["ai", "apis", "interview"],
+      "source_url": "https://nordicapis.com/a-years-evolution-of-ai-and-apis-a-world-apart/"
+    },
+    {
+      "title": "How To Prepare Your API for AI Agents",
+      "url": "https://thenewstack.io/how-to-prepare-your-api-for-ai-agents/",
+      "date": "2025-06-25",
+      "publication": "THE NEW STACK",
+      "description": "by Bill Doerrfeld",
+      "tags": ["ai", "apis", "agents"],
+      "source_url": "https://thenewstack.io/how-to-prepare-your-api-for-ai-agents/"
+    },
+    {
+      "title": "API Economy Trends for 2025",
+      "url": "https://platformable.com/blog/trend-3-api-consumption",
+      "date": "2025-01-26",
+      "publication": "Platformable",
+      "description": "by Mark Boyd",
+      "tags": ["api", "trends", "economy"],
+      "source_url": "https://platformable.com/blog/trend-3-api-consumption"
+    },
+    {
+      "title": "What is API Governance?",
+      "url": "https://nordicapis.com/what-is-api-governance/",
+      "date": "2024-11-07",
+      "publication": "Nordic APIs",
+      "description": "by Art Anthony",
+      "tags": ["api", "governance"],
+      "source_url": "https://nordicapis.com/what-is-api-governance/"
+    },
+    {
+      "title": "Key Takeaways From Platform Summit 2024",
+      "url": "https://nordicapis.com/key-takeaways-from-platform-summit-2024/",
+      "date": "2024-10-15",
+      "publication": "Nordic APIs",
+      "description": "by Bill Doerrfeld",
+      "tags": ["platform", "summit", "conference"],
+      "source_url": "https://nordicapis.com/key-takeaways-from-platform-summit-2024/"
+    },
+    {
+      "title": "Going Platinum: How to Make A Hit API",
+      "url": "https://nordicapis.com/going-platinum-how-to-make-a-hit-api/",
+      "date": "2024-04-03",
+      "publication": "Nordic APIs",
+      "description": "by Bill Doerrfeld",
+      "tags": ["api", "success", "strategy"],
+      "source_url": "https://nordicapis.com/going-platinum-how-to-make-a-hit-api/"
+    },
+    {
+      "title": "4 Ways the Face of APIs Is Changing in 2024",
+      "url": "https://nordicapis.com/4-ways-the-face-of-apis-is-changing-in-2024/",
+      "date": "2024-02-27",
+      "publication": "Nordic APIs",
+      "description": "by Art Anthony",
+      "tags": ["api", "trends", "2024"],
+      "source_url": "https://nordicapis.com/4-ways-the-face-of-apis-is-changing-in-2024/"
+    },
+    {
+      "title": "Creating Support Resources to Improve Developer Experience",
+      "url": "https://nordicapis.com/creating-support-resources-to-improve-developer-experience/",
+      "date": "2024-02-20",
+      "publication": "Nordic APIs",
+      "description": "by Art Anthony",
+      "tags": ["developer-experience", "support", "resources"],
+      "source_url": "https://nordicapis.com/creating-support-resources-to-improve-developer-experience/"
+    },
+    {
+      "title": "Developer Spotlight: Kristen Womack",
+      "url": "https://www.twilio.com/blog/developer-spotlight-kristen-womack",
+      "date": "2020-05-21",
+      "publication": "Twilio",
+      "description": "by Julie Griffin",
+      "tags": ["spotlight", "developer", "interview"],
+      "source_url": "https://www.twilio.com/blog/developer-spotlight-kristen-womack"
+    },
+    {
+      "title": "10 companies that implemented the microservice architecture and paved the way for others",
+      "url": "https://web.archive.org/web/20230602150120/https://divante.com/blog/10-companies-that-implemented-the-microservice-architecture-and-paved-the-way-for-others/",
+      "date": "2019-02-08",
+      "publication": "divante",
+      "description": "by Aleksandra Kwiecień",
+      "tags": ["microservices", "architecture", "case-study"],
+      "source_url": "https://web.archive.org/web/20230602150120/https://divante.com/blog/10-companies-that-implemented-the-microservice-architecture-and-paved-the-way-for-others/"
+    },
+    {
+      "title": "From monolith to microservices: Horror stories and best practices",
+      "url": "https://techbeacon.com/app-dev-testing/monolith-microservices-horror-stories-best-practices",
+      "date": "2017-01-01",
+      "publication": "Tech Beacon",
+      "description": "by Bill Doerrfeld",
+      "tags": ["microservices", "monolith", "best-practices"],
+      "source_url": "https://techbeacon.com/app-dev-testing/monolith-microservices-horror-stories-best-practices"
+    },
+    {
+      "title": "Developer Personas as a Revenue Growth Tool",
+      "url": "https://www.slashdata.co/blog/developer-personas-revenue-growth-tool",
+      "date": "2016-06-02",
+      "publication": "VisionMobile",
+      "description": "by Mark Boyd",
+      "tags": ["developer", "personas", "revenue"],
+      "source_url": "https://www.slashdata.co/blog/developer-personas-revenue-growth-tool"
+    },
+    {
+      "title": "APIStrat Announces 2016 Program Chair Lorinda Brandon, and the Program Committee of API Industry Thought Leaders For October's Boston Event",
+      "url": "https://www.3scale.net/2016/04/apistrat-announces-2016-program-chair-lorinda-brandon-program-committee-api-industry-thought-leaders-octobers-boston-event/",
+      "date": "2016-04-26",
+      "publication": "3Scale",
+      "description": "Program committee member announcement",
+      "tags": ["apistrat", "conference", "program-committee"],
+      "source_url": "https://www.3scale.net/2016/04/apistrat-announces-2016-program-chair-lorinda-brandon-program-committee-api-industry-thought-leaders-octobers-boston-event/"
+    },
+    {
+      "title": "Runscope Chats with API Thought Leaders at the API Strategy & Practice Conference in Austin",
+      "url": "http://blog.runscope.com/posts/runscope-chats-with-api-thought-leaders-at-the-api-strategy-and-practice-conference-in-austin",
+      "date": "2015-12-22",
+      "publication": "Runscope",
+      "description": "by Ashley Waxman",
+      "tags": ["api", "conference", "thought-leaders"],
+      "source_url": "http://blog.runscope.com/posts/runscope-chats-with-api-thought-leaders-at-the-api-strategy-and-practice-conference-in-austin"
+    },
+    {
+      "title": "Best Buy partners with IFTTT to offer store alerts",
+      "url": "http://www.usatoday.com/story/tech/personal/2014/11/26/best-buy-ifttt/19536773/",
+      "date": "2014-11-26",
+      "publication": "USATODAY",
+      "description": "Best Buy IFTTT partnership coverage",
+      "tags": ["best-buy", "ifttt", "integration"],
+      "source_url": "http://www.usatoday.com/story/tech/personal/2014/11/26/best-buy-ifttt/19536773/"
+    },
+    {
+      "title": "BEST BUY LAUNCHES RECOMMENDATIONS API",
+      "url": "http://www.programmableweb.com/news/best-buy-launches-recommendations-api/2014/08/08",
+      "date": "2014-08-08",
+      "publication": "Programmable Web",
+      "description": "Interview with Kristen Womack",
+      "tags": ["best-buy", "api", "recommendations"],
+      "source_url": "http://www.programmableweb.com/news/best-buy-launches-recommendations-api/2014/08/08"
+    }
+  ],
+  "career_community": [
+    {
+      "title": "COVID-19 Is Forcing Expectant Parents to Make Tough Choices. Here's What You Need to Know",
+      "url": "https://www.worth.com/alternative-birthing-options-mina-families-coronavirus/",
+      "date": "2020-04-28",
+      "publication": "Worth",
+      "description": "by Arick Wierson",
+      "tags": ["covid", "birth", "reproductive-health"],
+      "source_url": "https://www.worth.com/alternative-birthing-options-mina-families-coronavirus/"
+    },
+    {
+      "title": "2018 Alumnae Award Winners Showcase Community Engagement and Professional Excellence",
+      "url": "https://www.stkate.edu/news-and-events/news/2018-alumnae-award-winners",
+      "date": "2018-05-08",
+      "publication": "St. Kate's",
+      "description": "Alumnae award recognition",
+      "tags": ["award", "alumni", "community"],
+      "source_url": "https://www.stkate.edu/news-and-events/news/2018-alumnae-award-winners"
+    },
+    {
+      "title": "Have You Tried Turning It Off And On Again: Solving Tech's Biggest Issue",
+      "url": "http://www.therivetermagazine.com/have-you-tried-turning-it-off-and-on-again-solving-techs-biggest-issue/",
+      "date": "2018-03-14",
+      "publication": "The Riveter",
+      "description": "by Anna Meyer",
+      "tags": ["tech", "diversity", "inclusion"],
+      "source_url": "http://www.therivetermagazine.com/have-you-tried-turning-it-off-and-on-again-solving-techs-biggest-issue/"
+    },
+    {
+      "title": "Most Likely to Succeed Startup",
+      "url": "",
+      "date": "2017-11-29",
+      "publication": "Minnesota Business Magazine",
+      "description": "Startup recognition",
+      "tags": ["startup", "award", "minnesota"],
+      "source_url": ""
+    },
+    {
+      "title": "The future according to the tech oracles",
+      "url": "",
+      "date": "2016-11-22",
+      "publication": "Minnesota Business Magazine",
+      "description": "by Brian Martucci",
+      "tags": ["tech", "future", "oracle"],
+      "source_url": ""
+    },
+    {
+      "title": "MN on the National Non-Flyover Radar During TCSW",
+      "url": "",
+      "date": "2016-09-21",
+      "publication": "Spark Track",
+      "description": "by Jennifer Gilhoi",
+      "tags": ["minnesota", "tech", "conference"],
+      "source_url": ""
+    },
+    {
+      "title": "40 Under 40 Interview",
+      "url": "http://www.bizjournals.com/twincities/print-edition/2016/03/11/40-under-40-kristen-womack.html",
+      "date": "2016-03-11",
+      "publication": "Minneapolis / St. Paul Business Journal",
+      "description": "40 Under 40 interview",
+      "tags": ["award", "interview", "40-under-40"],
+      "source_url": "http://www.bizjournals.com/twincities/print-edition/2016/03/11/40-under-40-kristen-womack.html"
+    },
+    {
+      "title": "40 Under 40 Announcement",
+      "url": "http://www.bizjournals.com/twincities/news/2016/01/21/business-journal-40-under-40-winners-round-two.html",
+      "date": "2016-01-21",
+      "publication": "Minneapolis / St. Paul Business Journal",
+      "description": "40 Under 40 award announcement",
+      "tags": ["award", "40-under-40", "announcement"],
+      "source_url": "http://www.bizjournals.com/twincities/news/2016/01/21/business-journal-40-under-40-winners-round-two.html"
+    }
+  ],
+  "hack_the_gap_women_in_tech": [
+    {
+      "title": "Behind the 'Fem' in Femtech",
+      "url": "https://startingupnorth-com.cdn.ampproject.org/c/s/startingupnorth.com/thelandscape/femtech/amp/",
+      "date": "2019-08-20",
+      "publication": "Starting Up North",
+      "description": "by Laura Beier",
+      "tags": ["femtech", "women-in-tech", "startup"],
+      "source_url": "https://startingupnorth-com.cdn.ampproject.org/c/s/startingupnorth.com/thelandscape/femtech/amp/"
+    },
+    {
+      "title": "Hack the Gap Acquired by Minneapolis Tech Startup 26 Letters",
+      "url": "https://www.americaninno.com/minne/inno-news-minne/hack-the-gap-acquired-by-minneapolis-tech-startup-26-letters/",
+      "date": "2019-06-18",
+      "publication": "MinneInno",
+      "description": "By Maddy Kennedy",
+      "tags": ["hack-the-gap", "acquisition", "26-letters"],
+      "source_url": "https://www.americaninno.com/minne/inno-news-minne/hack-the-gap-acquired-by-minneapolis-tech-startup-26-letters/"
+    },
+    {
+      "title": "26 Letters Acquires Hack the Gap",
+      "url": "https://www.hackthegap.com/blog-posts/26-letters-acquires-hack-the-gap",
+      "date": "2019-06-18",
+      "publication": "Hack the Gap",
+      "description": "Official acquisition announcement",
+      "tags": ["hack-the-gap", "acquisition", "26-letters"],
+      "source_url": "https://www.hackthegap.com/blog-posts/26-letters-acquires-hack-the-gap"
+    },
+    {
+      "title": "Meet Minne Inno's 2019 'Inno on Fire' Winners",
+      "url": "https://www.americaninno.com/minne/50onfire/meet-minne-innos-2019-inno-on-fire-winners/",
+      "date": "2019-05-02",
+      "publication": "MinneInno",
+      "description": "By Maddy Kennedy",
+      "tags": ["award", "inno-on-fire", "minnesota"],
+      "source_url": "https://www.americaninno.com/minne/50onfire/meet-minne-innos-2019-inno-on-fire-winners/"
+    },
+    {
+      "title": "A List of 100+ Women Who Can Speak at Your Next Twin Cities Startup Event",
+      "url": "https://www.americaninno.com/minne/guides-minne/a-list-of-75-women-who-can-speak-at-your-next-twin-cities-startup-event/",
+      "date": "2019-04-17",
+      "publication": "MinneInno",
+      "description": "By Maddy Kennedy",
+      "tags": ["women-speakers", "twin-cities", "startup"],
+      "source_url": "https://www.americaninno.com/minne/guides-minne/a-list-of-75-women-who-can-speak-at-your-next-twin-cities-startup-event/"
+    },
+    {
+      "title": "Hack the Gap Seeks Expansion After Fifth Annual Hackathon",
+      "url": "https://www.americaninno.com/minne/twin-cities-startup/hack-the-gap-seeks-expansion-after-fifth-annual-hackathon/",
+      "date": "2019-01-28",
+      "publication": "MinneInno",
+      "description": "By Taryn Phaneuf",
+      "tags": ["hack-the-gap", "hackathon", "expansion"],
+      "source_url": "https://www.americaninno.com/minne/twin-cities-startup/hack-the-gap-seeks-expansion-after-fifth-annual-hackathon/"
+    },
+    {
+      "title": "Hack the Gap brings female techies to downtown St. Paul this weekend",
+      "url": "https://www.twincities.com/2019/01/25/hack-the-gap-brings-female-techies-to-downtown-st-paul-saturday-sunday/",
+      "date": "2019-01-25",
+      "publication": "Pioneer Press",
+      "description": "by Frederick Melo",
+      "tags": ["hack-the-gap", "hackathon", "st-paul"],
+      "source_url": "https://www.twincities.com/2019/01/25/hack-the-gap-brings-female-techies-to-downtown-st-paul-saturday-sunday/"
+    },
+    {
+      "title": "Hack the Gap Shows There Are Women in Tech",
+      "url": "http://makeitmsp.org/hack-gap-shows-women-tech/",
+      "date": "2017-01-06",
+      "publication": "MAKE IT. MSP.",
+      "description": "Hack the Gap coverage",
+      "tags": ["hack-the-gap", "women-in-tech", "minneapolis"],
+      "source_url": "http://makeitmsp.org/hack-gap-shows-women-tech/"
+    },
+    {
+      "title": "COCO Members Hack the Diversity Gap",
+      "url": "https://explorecoco.com/blog/coco-members-hack-the-diversity-gap",
+      "date": "2017-01-06",
+      "publication": "CoCo",
+      "description": "CoCo coworking space coverage",
+      "tags": ["hack-the-gap", "diversity", "coworking"],
+      "source_url": "https://explorecoco.com/blog/coco-members-hack-the-diversity-gap"
+    },
+    {
+      "title": "See Big Ideas Born at Hack the Gap's 2017 Hackathon at Target's Minneapolis HQ",
+      "url": "https://corporate.target.com/article/2017/01/hack-the-gap#sf52041551",
+      "date": "2017-01-17",
+      "publication": "Target",
+      "description": "Target corporate blog coverage",
+      "tags": ["hack-the-gap", "target", "hackathon"],
+      "source_url": "https://corporate.target.com/article/2017/01/hack-the-gap#sf52041551"
+    },
+    {
+      "title": "[Video] Hack The Gap 2016 Demos",
+      "url": "http://tech.mn/news/2016/05/17/video-hack-the-gap-2016-demos/",
+      "date": "2016-05-17",
+      "publication": "TECH{dot}MN",
+      "description": "Video coverage of 2016 demos",
+      "tags": ["hack-the-gap", "video", "demos"],
+      "source_url": "http://tech.mn/news/2016/05/17/video-hack-the-gap-2016-demos/"
+    },
+    {
+      "title": "Building community at Hack the Gap",
+      "url": "https://medium.com/best-buy-developers/building-community-at-hack-the-gap-6c7257c2abf7#.t2pyxk1z7",
+      "date": "2015-06-02",
+      "publication": "Best Buy Developers (Medium)",
+      "description": "by Ira Brooker",
+      "tags": ["hack-the-gap", "community", "best-buy"],
+      "source_url": "https://medium.com/best-buy-developers/building-community-at-hack-the-gap-6c7257c2abf7#.t2pyxk1z7"
+    },
+    {
+      "title": "Hack the Gap Delivers On Minnesota's First Female Hackathon",
+      "url": "http://tech.mn/news/2015/05/18/hack-the-gap-minnesota-2015/",
+      "date": "2015-05-18",
+      "publication": "Tech{dot}MN",
+      "description": "Coverage of first Hack the Gap event",
+      "tags": ["hack-the-gap", "hackathon", "first-event"],
+      "source_url": "http://tech.mn/news/2015/05/18/hack-the-gap-minnesota-2015/"
+    },
+    {
+      "title": "Twin Cities Geekettes Create a Chance to Stand Out",
+      "url": "http://www.startribune.com/at-hack-the-gap-twin-cities-geekettes-create-a-chance-to-stand-out/303958531/",
+      "date": "2015-05-14",
+      "publication": "Star Tribune",
+      "description": "Star Tribune coverage of Hack the Gap",
+      "tags": ["hack-the-gap", "geekettes", "star-tribune"],
+      "source_url": "http://www.startribune.com/at-hack-the-gap-twin-cities-geekettes-create-a-chance-to-stand-out/303958531/"
+    },
+    {
+      "title": "Women (Heart) Tech",
+      "url": "",
+      "date": "2015-12-23",
+      "publication": "Minnesota Business Magazine",
+      "description": "by Brian Martucci",
+      "tags": ["women-in-tech", "minnesota"],
+      "source_url": ""
+    },
+    {
+      "title": "A Peek Inside a MPLS MadWomen Event",
+      "url": "",
+      "date": "2014-11-03",
+      "publication": "Zeus Jones",
+      "description": "MadWomen event coverage",
+      "tags": ["madwomen", "minneapolis", "event"],
+      "source_url": ""
+    }
+  ],
+  "birth_reproductive_health": [
+    {
+      "title": "Twilio Developer Spotlight: Kristen Womack",
+      "url": "https://www.twilio.com/blog/developer-spotlight-kristen-womack",
+      "date": "2020-05-21",
+      "publication": "Twilio",
+      "description": "by Julie Griffin",
+      "tags": ["twilio", "developer", "spotlight"],
+      "source_url": "https://www.twilio.com/blog/developer-spotlight-kristen-womack"
+    },
+    {
+      "title": "COVID-19 Is Forcing Expectant Parents to Make Tough Choices. Here's What You Need to Know",
+      "url": "https://www.worth.com/alternative-birthing-options-mina-families-coronavirus/",
+      "date": "2020-04-28",
+      "publication": "Worth",
+      "description": "by Arick Wierson",
+      "tags": ["covid", "birth", "reproductive-health"],
+      "source_url": "https://www.worth.com/alternative-birthing-options-mina-families-coronavirus/"
+    },
+    {
+      "title": "Work Well: Reset Buttons & Intentional Mindsets",
+      "url": "https://tech.mn/news/2020/04/15/work-well-reset-buttons-intentional-mindsets",
+      "date": "2020-04-15",
+      "publication": "Tech{dot}MN",
+      "description": "by Laura Beier",
+      "tags": ["work", "wellness", "mindset"],
+      "source_url": "https://tech.mn/news/2020/04/15/work-well-reset-buttons-intentional-mindsets"
+    },
+    {
+      "title": "Gather Birth Interview",
+      "url": "https://www.gatherbirth.com/blog/gather-interviews-mina-families-terryn-lawrence-kristin-womack",
+      "date": "2020-03-01",
+      "publication": "Gather Birth",
+      "description": "Interview about Mina Families",
+      "tags": ["birth", "mina-families", "interview"],
+      "source_url": "https://www.gatherbirth.com/blog/gather-interviews-mina-families-terryn-lawrence-kristin-womack"
+    },
+    {
+      "title": "BEHIND THE 'FEM' IN FEMTECH",
+      "url": "https://startingupnorth.com/thelandscape/femtech/",
+      "date": "2019-08-20",
+      "publication": "Starting Up North",
+      "description": "by Laura Beiber",
+      "tags": ["femtech", "reproductive-health", "startup"],
+      "source_url": "https://startingupnorth.com/thelandscape/femtech/"
+    }
+  ]
+}

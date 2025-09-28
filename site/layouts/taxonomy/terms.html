@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ .Title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <main>
+    {{ if .Site.Taxonomies }}
+      {{ range $taxName, $terms := .Site.Taxonomies }}
+        <section>
+          <h2>{{ $taxName | title }}</h2>
+          <ul>
+            {{ range $termName, $pages := $terms }}
+              <li>
+                <a href="{{ printf "/%s/%s/" $taxName $termName | relURL }}">{{ $termName }}</a>
+                ({{ len $pages }})
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+    {{ else }}
+      <p>No taxonomies defined.</p>
+    {{ end }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ now.Format "2006" }} Kristen Womack</p>
+  </footer>
+</body>
+</html>

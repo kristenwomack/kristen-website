@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}" />
+  </head>
+  <body>
+    <header>
+      <div class="site-header">
+        <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+        {{ partial "nav.html" . }}
+      </div>
+    </header>
+
+    <main role="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+      <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
+    </footer>
+  </body>
+</html>

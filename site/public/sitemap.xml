@@ -2,28 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/design/</loc>
+    <loc>http://localhost:62007/about/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/datatest/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/featured/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/writing/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/design/</loc>
     <lastmod>2025-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:62007/talks/2025/09/sample-talk-building-for-humans/</loc>
     <lastmod>2025-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/talks/2025/09/sample-talk-building-for-humans/</loc>
+    <loc>http://localhost:62007/tags/</loc>
     <lastmod>2025-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:62007/talks/</loc>
     <lastmod>2025-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/talks/</loc>
+    <loc>http://localhost:62007/tags/ux/</loc>
     <lastmod>2025-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ux/</loc>
-    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:62007/media/2016/01/2016-minneapolis/st.-paul-business-journal-40-under-40/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:62007/tags/40-under-40/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/media/</loc>
+    <loc>http://localhost:62007/tags/api/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/</loc>
+    <loc>http://localhost:62007/papers/2016/01/api-development-articles/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/award/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/development/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/education/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/feature/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/media/2016/01/feature-in-star-tribune/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/talks/2016/01/film-society-of-minneapolis-st.-paul-panelist/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/leadership/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/management/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/media/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/media/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/panel/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/papers/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/product/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/talks/2016/01/product-development-management-association-speaker/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/recognition/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/talks/2016/01/speaker-at-target-event/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/speaking/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/startup/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/papers/2016/01/team-management-articles/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/technical-writing/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/tags/technology/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/talks/2016/01/the-nerdery-event-speaker/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/talks/2016/01/twin-cities-startup-weekend-education-speaker/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62007/categories/</loc>
   </url>
 </urlset>

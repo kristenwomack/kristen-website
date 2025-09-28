@@ -1,0 +1,120 @@
+{
+  "talks": [
+    {
+      "title": "Speaker at Target Event",
+      "date": "2016-01-01",
+      "event": "Target",
+      "description": "Featured speaker at Target-hosted event",
+      "tags": ["speaking", "leadership"],
+      "source_url": ""
+    },
+    {
+      "title": "Product Development Management Association Speaker",
+      "date": "2016-01-01", 
+      "event": "Product Development Management Association",
+      "description": "Featured speaker at PDMA event",
+      "tags": ["product", "management", "speaking"],
+      "source_url": ""
+    },
+    {
+      "title": "The Nerdery Event Speaker",
+      "date": "2016-01-01",
+      "event": "The Nerdery",
+      "description": "Featured speaker at The Nerdery event",
+      "tags": ["technology", "speaking"],
+      "source_url": ""
+    },
+    {
+      "title": "Film Society of Minneapolis St. Paul Panelist",
+      "date": "2016-01-01",
+      "event": "Film Society of Minneapolis St. Paul",
+      "description": "Featured panelist at Film Society event",
+      "tags": ["panel", "speaking"],
+      "source_url": ""
+    },
+    {
+      "title": "Twin Cities Startup Weekend Education Speaker",
+      "date": "2016-01-01",
+      "event": "Twin Cities Startup Weekend Education",
+      "description": "Featured speaker at startup education event",
+      "tags": ["startup", "education", "speaking"],
+      "source_url": ""
+    }
+  ],
+  "papers": [
+    {
+      "title": "API Development Articles",
+      "date": "2016-01-01",
+      "publication": "Runscope (acquired by CA Technologies)",
+      "description": "Writing on API development topics",
+      "tags": ["api", "development", "technical-writing"],
+      "source_url": ""
+    },
+    {
+      "title": "Team Management Articles", 
+      "date": "2016-01-01",
+      "publication": "Hitch (acquired by New Relic)",
+      "description": "Writing on team management topics",
+      "tags": ["management", "leadership", "technical-writing"],
+      "source_url": ""
+    }
+  ],
+  "media": [
+    {
+      "title": "Feature in Star Tribune",
+      "date": "2016-01-01",
+      "outlet": "Star Tribune",
+      "description": "Work featured in Minneapolis Star Tribune",
+      "tags": ["media", "feature"],
+      "source_url": ""
+    },
+    {
+      "title": "Feature in Tech[dot]MN",
+      "date": "2016-01-01", 
+      "outlet": "Tech[dot]MN",
+      "description": "Work featured in Tech[dot]MN publication",
+      "tags": ["media", "technology"],
+      "source_url": ""
+    },
+    {
+      "title": "Feature in Mpls-St. Paul Business Journal",
+      "date": "2016-01-01",
+      "outlet": "Mpls-St. Paul Business Journal", 
+      "description": "Work featured in Minneapolis-St. Paul Business Journal",
+      "tags": ["media", "business"],
+      "source_url": ""
+    },
+    {
+      "title": "Feature in MinneInno",
+      "date": "2016-01-01",
+      "outlet": "MinneInno",
+      "description": "Work featured in MinneInno publication",
+      "tags": ["media", "innovation"],
+      "source_url": ""
+    },
+    {
+      "title": "Feature in Pioneer Press",
+      "date": "2016-01-01",
+      "outlet": "Pioneer Press",
+      "description": "Work featured in Pioneer Press",
+      "tags": ["media", "feature"],
+      "source_url": ""
+    },
+    {
+      "title": "Feature in MAKE IT. MSP",
+      "date": "2016-01-01",
+      "outlet": "MAKE IT. MSP",
+      "description": "Work featured in MAKE IT. MSP publication",
+      "tags": ["media", "entrepreneurship"],
+      "source_url": ""
+    },
+    {
+      "title": "2016 Minneapolis/St. Paul Business Journal 40 Under 40",
+      "date": "2016-01-01",
+      "outlet": "Minneapolis/St. Paul Business Journal",
+      "description": "Chosen as one of the 2016 Minneapolis/St. Paul Business Journal 40 Under 40",
+      "tags": ["award", "recognition", "40-under-40"],
+      "source_url": ""
+    }
+  ]
+}

@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Papers on Kristen Womack — Portfolio</title>
-    <link>http://localhost:1313/papers/</link>
-    <description>Recent content in Papers on Kristen Womack — Portfolio</description>
+    <title>Papers on Kristen Womack</title>
+    <link>http://localhost:62007/papers/</link>
+    <description>Recent content in Papers on Kristen Womack</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62007/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Development Articles</title>
+      <link>http://localhost:62007/papers/2016/01/api-development-articles/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/papers/2016/01/api-development-articles/</guid>
+      <description>&lt;p&gt;Writing on API development topics published at Runscope.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Team Management Articles</title>
+      <link>http://localhost:62007/papers/2016/01/team-management-articles/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/papers/2016/01/team-management-articles/</guid>
+      <description>&lt;p&gt;Writing on team management topics published at Hitch.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,30 @@
+{{ define "title" }}Featured Work - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>Featured Work</h1>
+  
+  <p>This is a list of interviews and articles about APIs, awards, press coverage of Hack the Gap over the years, and various topics about women in tech and leadership. Thank you to everyone who has given a spotlight to the things I've built and problems I've worked to solve in community with others.</p>
+
+  <h2>Technology</h2>
+  {{ range .Site.Data.featured.technology }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
+  {{ end }}
+
+  <h2>Career + Community</h2>
+  {{ range .Site.Data.featured.career_community }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
+  {{ end }}
+
+  <h2>Hack the Gap + Women in Tech</h2>
+  {{ range .Site.Data.featured.hack_the_gap_women_in_tech }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
+  {{ end }}
+
+  <h2>Birth, Reproductive Health, & Building Mina</h2>
+  {{ range .Site.Data.featured.birth_reproductive_health }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
+  {{ end }}
+
+</article>
+{{ end }}

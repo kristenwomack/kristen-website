@@ -1,6 +1,6 @@
 baseURL = "https://kristenwomack.github.io/"
 languageCode = "en-us"
-title = "Kristen Womack — Portfolio"
+title = "Kristen Womack"
 
 [params]
   author = "Kristen Womack"

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speaking on Kristen Womack</title>
+    <link>http://localhost:62007/tags/speaking/</link>
+    <description>Recent content in Speaking on Kristen Womack</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62007/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Film Society of Minneapolis St. Paul Panelist</title>
+      <link>http://localhost:62007/talks/2016/01/film-society-of-minneapolis-st.-paul-panelist/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/film-society-of-minneapolis-st.-paul-panelist/</guid>
+      <description>&lt;p&gt;Featured panelist at Film Society event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product Development Management Association Speaker</title>
+      <link>http://localhost:62007/talks/2016/01/product-development-management-association-speaker/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/product-development-management-association-speaker/</guid>
+      <description>&lt;p&gt;Featured speaker at PDMA event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Speaker at Target Event</title>
+      <link>http://localhost:62007/talks/2016/01/speaker-at-target-event/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/speaker-at-target-event/</guid>
+      <description>&lt;p&gt;Featured speaker at Target-hosted event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Nerdery Event Speaker</title>
+      <link>http://localhost:62007/talks/2016/01/the-nerdery-event-speaker/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/the-nerdery-event-speaker/</guid>
+      <description>&lt;p&gt;Featured speaker at The Nerdery event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Twin Cities Startup Weekend Education Speaker</title>
+      <link>http://localhost:62007/talks/2016/01/twin-cities-startup-weekend-education-speaker/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/twin-cities-startup-weekend-education-speaker/</guid>
+      <description>&lt;p&gt;Featured speaker at startup education event.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=62007&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Data Test - Kristen Womack</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="site-header">
+        <h1><a href="/">Kristen Womack</a></h1>
+        <nav role="navigation" aria-label="Main navigation">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/writing/">Writing</a></li>
+    <li><a href="/featured/">Featured</a></li>
+    <li><a href="/talks/">Talks</a></li>
+    <li><a href="/papers/">Papers</a></li>
+    <li><a href="/media/">Media</a></li>
+    <li><a href="/tags/">Tags</a></li>
+    <li><a href="/index.xml">RSS</a></li>
+  </ul>
+</nav>
+
+      </div>
+    </header>
+
+    <main role="main">
+      
+  <article>
+    <h1>Data Test</h1>
+    <p><strong>Date:</strong> 2025-09-22</p>
+    <div><h1 id="data-test">Data Test</h1>
+<h2 id="writing-data-test">Writing Data Test</h2>
+<p>{{ if .Site.Data.writing }}
+Writing data exists!
+{{ if .Site.Data.writing.api_articles }}
+API articles count: {{ len .Site.Data.writing.api_articles }}
+{{ else }}
+No API articles found
+{{ end }}
+{{ else }}
+No writing data found
+{{ end }}</p>
+<h2 id="featured-data-test">Featured Data Test</h2>
+<p>{{ if .Site.Data.featured }}
+Featured data exists!
+{{ if .Site.Data.featured.technology }}
+Technology count: {{ len .Site.Data.featured.technology }}
+{{ else }}
+No technology found
+{{ end }}
+{{ else }}
+No featured data found
+{{ end }}</p>
+</div>
+    <footer>
+      
+    </footer>
+  </article>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Kristen Womack</p>
+    </footer>
+  </body>
+</html>

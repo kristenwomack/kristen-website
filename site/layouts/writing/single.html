@@ -1,0 +1,31 @@
+{{ define "title" }}Writing - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>Writing</h1>
+  
+  <p>This page is a collection of my published writing. My interests span many things. Here you'll find this is a collection of varied topics from technology to the human experience.</p>
+
+  <h2>API Articles & Blog Posts</h2>
+  {{ range .Site.Data.writing.api_articles }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
+  {{ end }}
+
+  <h2>Birth, Reproductive Health, & Building Mina</h2>
+  {{ range .Site.Data.writing.birth_reproductive_health }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
+  {{ end }}
+
+  <h2>Substacks & Newsletters</h2>
+  {{ range .Site.Data.writing.substacks }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .description }}</p>
+  {{ end }}
+
+  <h2>Archive</h2>
+  <p>Most of these articles are now 404 links and serve more as a list for me to remember the things I wrote about in historical context even though they no longer exist on the Internet.</p>
+  {{ range .Site.Data.writing.archived }}
+  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
+  {{ end }}
+
+</article>
+{{ end }}

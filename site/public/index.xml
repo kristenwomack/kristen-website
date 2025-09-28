@@ -1,19 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kristen Womack — Portfolio</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Kristen Womack — Portfolio</description>
+    <title>Kristen Womack</title>
+    <link>http://localhost:62007/</link>
+    <description>Recent content on Kristen Womack</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62007/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:62007/about/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/about/</guid>
+      <description>&lt;h1 id=&#34;about-kristen&#34;&gt;About Kristen&lt;/h1&gt;&#xA;&lt;p&gt;Hi, I&amp;rsquo;m Kristen 👋🏼&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m an impact-driven product leader, technologist, and community builder. I&amp;rsquo;m a creator for makers and builders — developers, startups, and SMBs. I&amp;rsquo;ve built three companies: Hack the Gap (acquired 2019) co-founded with Jenna Pederson; Mina (a marketplace for parents and birth professionals); and Night Sky Web Co (a technology services company building technical solutions and prototypes).&lt;/p&gt;&#xA;&lt;p&gt;Currently, I am a Principal Product Manager at Microsoft leading the Azure Developer CLI (azd). I serve on the Board of Trustees for St. Catherine University, a higher education institution educating women to lead and influence, I am an advisor to the board of directors at Everyday Miracles, an organization focused in birth equity, and I teach after school intro to coding for 3rd to 8th graders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Test</title>
+      <link>http://localhost:62007/datatest/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/datatest/</guid>
+      <description>&lt;h1 id=&#34;data-test&#34;&gt;Data Test&lt;/h1&gt;&#xA;&lt;h2 id=&#34;writing-data-test&#34;&gt;Writing Data Test&lt;/h2&gt;&#xA;&lt;p&gt;{{ if .Site.Data.writing }}&#xA;Writing data exists!&#xA;{{ if .Site.Data.writing.api_articles }}&#xA;API articles count: {{ len .Site.Data.writing.api_articles }}&#xA;{{ else }}&#xA;No API articles found&#xA;{{ end }}&#xA;{{ else }}&#xA;No writing data found&#xA;{{ end }}&lt;/p&gt;&#xA;&lt;h2 id=&#34;featured-data-test&#34;&gt;Featured Data Test&lt;/h2&gt;&#xA;&lt;p&gt;{{ if .Site.Data.featured }}&#xA;Featured data exists!&#xA;{{ if .Site.Data.featured.technology }}&#xA;Technology count: {{ len .Site.Data.featured.technology }}&#xA;{{ else }}&#xA;No technology found&#xA;{{ end }}&#xA;{{ else }}&#xA;No featured data found&#xA;{{ end }}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Featured Work</title>
+      <link>http://localhost:62007/featured/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/featured/</guid>
+      <description>&lt;h1 id=&#34;featured-work&#34;&gt;Featured Work&lt;/h1&gt;&#xA;&lt;p&gt;This is a list of interviews and articles about APIs, awards, press coverage of Hack the Gap over the years, and various topics about women in tech and leadership. Thank you to everyone who has given a spotlight to the things I&amp;rsquo;ve built and problems I&amp;rsquo;ve worked to solve in community with others.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:62007/writing/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/writing/</guid>
+      <description>&lt;h1 id=&#34;writing&#34;&gt;Writing&lt;/h1&gt;&#xA;&lt;p&gt;This page is a collection of my published writing. My interests span many things. Here you&amp;rsquo;ll find this is a collection of varied topics from technology to the human experience.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sample Talk: Building for Humans</title>
-      <link>http://localhost:1313/talks/2025/09/sample-talk-building-for-humans/</link>
+      <link>http://localhost:62007/talks/2025/09/sample-talk-building-for-humans/</link>
       <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/talks/2025/09/sample-talk-building-for-humans/</guid>
+      <guid>http://localhost:62007/talks/2025/09/sample-talk-building-for-humans/</guid>
       <description>&lt;p&gt;Short abstract for the sample talk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2016 Minneapolis/St. Paul Business Journal 40 Under 40</title>
+      <link>http://localhost:62007/media/2016/01/2016-minneapolis/st.-paul-business-journal-40-under-40/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/media/2016/01/2016-minneapolis/st.-paul-business-journal-40-under-40/</guid>
+      <description>&lt;p&gt;Chosen as one of the 2016 Minneapolis/St. Paul Business Journal 40 Under 40.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>API Development Articles</title>
+      <link>http://localhost:62007/papers/2016/01/api-development-articles/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/papers/2016/01/api-development-articles/</guid>
+      <description>&lt;p&gt;Writing on API development topics published at Runscope.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feature in Star Tribune</title>
+      <link>http://localhost:62007/media/2016/01/feature-in-star-tribune/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/media/2016/01/feature-in-star-tribune/</guid>
+      <description>&lt;p&gt;Work featured in Minneapolis Star Tribune.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Film Society of Minneapolis St. Paul Panelist</title>
+      <link>http://localhost:62007/talks/2016/01/film-society-of-minneapolis-st.-paul-panelist/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/film-society-of-minneapolis-st.-paul-panelist/</guid>
+      <description>&lt;p&gt;Featured panelist at Film Society event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product Development Management Association Speaker</title>
+      <link>http://localhost:62007/talks/2016/01/product-development-management-association-speaker/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/product-development-management-association-speaker/</guid>
+      <description>&lt;p&gt;Featured speaker at PDMA event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Speaker at Target Event</title>
+      <link>http://localhost:62007/talks/2016/01/speaker-at-target-event/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/speaker-at-target-event/</guid>
+      <description>&lt;p&gt;Featured speaker at Target-hosted event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Team Management Articles</title>
+      <link>http://localhost:62007/papers/2016/01/team-management-articles/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/papers/2016/01/team-management-articles/</guid>
+      <description>&lt;p&gt;Writing on team management topics published at Hitch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Nerdery Event Speaker</title>
+      <link>http://localhost:62007/talks/2016/01/the-nerdery-event-speaker/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/the-nerdery-event-speaker/</guid>
+      <description>&lt;p&gt;Featured speaker at The Nerdery event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Twin Cities Startup Weekend Education Speaker</title>
+      <link>http://localhost:62007/talks/2016/01/twin-cities-startup-weekend-education-speaker/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62007/talks/2016/01/twin-cities-startup-weekend-education-speaker/</guid>
+      <description>&lt;p&gt;Featured speaker at startup education event.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
