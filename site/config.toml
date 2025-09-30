@@ -4,12 +4,13 @@ title = "Kristen Womack"
 
 [params]
   author = "Kristen Womack"
-  description = "Talks, papers, and media mentions by Kristen Womack"
+  description = "Talks, papers, and writing by Kristen Womack"
 
 [outputs]
   home = ["HTML", "RSS"]
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [permalinks]
   talks = "/talks/:year/:month/:slug/"
   papers = "/papers/:year/:month/:slug/"
-  media = "/media/:year/:month/:slug/"

@@ -3,20 +3,23 @@
 {{ define "main" }}
 <article>
   <h1>Papers</h1>
-  
+
   <p>Published papers and research work.</p>
 
-  {{ range .Site.Data.content_by_topic.papers }}
-  <p>
-    {{ if .source_url }}
-    <strong><a href="{{ .source_url }}">{{ .title }}</a></strong>
-    {{ else }}
-    <strong>{{ .title }}</strong>
-    {{ end }}<br>
-    {{ .publication }} | {{ dateFormat "1/2/06" .date }}<br>
-    {{ .description }}
-  </p>
-  {{ end }}
+  <ul>
+    {{ range .Site.Data.content_by_topic.papers }}
+    <li>
+      {{ if .source_url }}
+        <strong><a href="{{ .source_url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
+      {{ else }}
+        <strong>{{ .title }}</strong>
+      {{ end }}
+      <br>
+      {{ .publication }} | {{ dateFormat "1/2/06" .date }}
+      {{ with .description }}<br>{{ . }}{{ end }}
+    </li>
+    {{ end }}
+  </ul>
 
 </article>
 {{ end }}

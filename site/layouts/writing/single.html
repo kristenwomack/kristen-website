@@ -3,29 +3,69 @@
 {{ define "main" }}
 <article>
   <h1>Writing</h1>
-  
+
   <p>This page is a collection of my published writing. My interests span many things. Here you'll find this is a collection of varied topics from technology to the human experience.</p>
 
-  <h2>API Articles & Blog Posts</h2>
-  {{ range .Site.Data.writing.api_articles }}
-  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
-  {{ end }}
+  <h2>API Articles &amp; Blog Posts</h2>
+  <ul>
+    {{ range .Site.Data.writing.api_articles }}
+    <li>
+      {{ if .url }}
+        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
+      {{ else }}
+        <strong>{{ .title }}</strong>
+      {{ end }}
+      <br>
+  {{ .publication }} | {{ dateFormat "1/2/06" .date }}
+    </li>
+    {{ end }}
+  </ul>
 
-  <h2>Birth, Reproductive Health, & Building Mina</h2>
-  {{ range .Site.Data.writing.birth_reproductive_health }}
-  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
-  {{ end }}
+  <h2>Birth, Reproductive Health, &amp; Building Mina</h2>
+  <ul>
+    {{ range .Site.Data.writing.birth_reproductive_health }}
+    <li>
+      {{ if .url }}
+        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
+      {{ else }}
+        <strong>{{ .title }}</strong>
+      {{ end }}
+      <br>
+  {{ .publication }} | {{ dateFormat "1/2/06" .date }}
+    </li>
+    {{ end }}
+  </ul>
 
-  <h2>Substacks & Newsletters</h2>
-  {{ range .Site.Data.writing.substacks }}
-  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .description }}</p>
-  {{ end }}
+  <h2>Substacks &amp; Newsletters</h2>
+  <ul>
+    {{ range .Site.Data.writing.substacks }}
+    <li>
+      {{ if .url }}
+        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
+      {{ else }}
+        <strong>{{ .title }}</strong>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
 
   <h2>Archive</h2>
   <p>Most of these articles are now 404 links and serve more as a list for me to remember the things I wrote about in historical context even though they no longer exist on the Internet.</p>
-  {{ range .Site.Data.writing.archived }}
-  <p><strong><a href="{{ .url }}">{{ .title }}</a></strong> | {{ .publication }} | {{ dateFormat "1/2/06" .date }}</p>
-  {{ end }}
+  <ul>
+    {{ range .Site.Data.writing.archived }}
+    <li>
+      {{ if .source_url }}
+        <strong><a href="{{ .source_url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
+      {{ else if .url }}
+        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
+      {{ else }}
+        <strong>{{ .title }}</strong>
+      {{ end }}
+  {{ with .publication }}<br>{{ . }}{{ end }}
+  {{ if .date }}{{ if .publication }} | {{ end }}{{ dateFormat "1/2/06" .date }}{{ end }}
+    </li>
+    {{ end }}
+  </ul>
 
 </article>
 {{ end }}

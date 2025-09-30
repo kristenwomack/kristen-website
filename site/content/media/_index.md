@@ -1,5 +1,14 @@
 ---
 title: "Media"
+_build:
+  render: never
+  list: never
+  publishResources: false
+cascade:
+  _build:
+    render: never
+    list: never
+    publishResources: false
 ---
 
-List of media mentions. Add individual items under this directory.
+<!-- Media section intentionally disabled; retained for historical reference. -->
