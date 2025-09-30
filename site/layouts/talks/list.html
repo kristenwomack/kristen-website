@@ -1,0 +1,22 @@
+{{ define "title" }}Talks - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>Talks</h1>
+  
+  <p>Speaking engagements and presentations I've given across various conferences and events.</p>
+
+  {{ range .Site.Data.content_by_topic.talks }}
+  <p>
+    {{ if .source_url }}
+    <strong><a href="{{ .source_url }}">{{ .title }}</a></strong>
+    {{ else }}
+    <strong>{{ .title }}</strong>
+    {{ end }}<br>
+    {{ .event }} | {{ dateFormat "1/2/06" .date }}<br>
+    {{ .description }}
+  </p>
+  {{ end }}
+
+</article>
+{{ end }}

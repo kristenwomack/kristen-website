@@ -1,0 +1,22 @@
+{{ define "title" }}Media - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>Media</h1>
+  
+  <p>Media mentions and press coverage.</p>
+
+  {{ range .Site.Data.content_by_topic.media }}
+  <p>
+    {{ if .source_url }}
+    <strong><a href="{{ .source_url }}">{{ .title }}</a></strong>
+    {{ else }}
+    <strong>{{ .title }}</strong>
+    {{ end }}<br>
+    {{ .outlet }} | {{ dateFormat "1/2/06" .date }}<br>
+    {{ .description }}
+  </p>
+  {{ end }}
+
+</article>
+{{ end }}
