@@ -6,7 +6,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # Hugo build output and caches
-/public/
+public/
 /resources/
 .hugo_build.lock
 
