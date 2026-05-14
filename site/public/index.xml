@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kristen Womack</title>
-    <link>https://kristenwomack.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Kristen Womack</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kristenwomack.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://kristenwomack.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://kristenwomack.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;about-kristen&#34;&gt;About Kristen&lt;/h1&gt;&#xA;&lt;p&gt;Hi, I&amp;rsquo;m Kristen 👋🏼&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m an impact-driven product leader, technologist, and community builder. I&amp;rsquo;m a creator for makers and builders — developers, startups, and SMBs. I&amp;rsquo;ve built three companies: Hack the Gap (acquired 2019) co-founded with Jenna Pederson; Mina (a marketplace for parents and birth professionals); and Night Sky Web Co (a technology services company building technical solutions and prototypes).&lt;/p&gt;&#xA;&lt;p&gt;Currently, I am a Principal Product Manager at Microsoft leading the Azure Developer CLI (azd). I serve on the Board of Trustees for St. Catherine University, a higher education institution educating women to lead and influence, I am an advisor to the board of directors at Everyday Miracles, an organization focused in birth equity, and I teach after school intro to coding for 3rd to 8th graders.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Featured Work</title>
-      <link>https://kristenwomack.github.io/featured/</link>
+      <link>http://localhost:1313/featured/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://kristenwomack.github.io/featured/</guid>
+      <guid>http://localhost:1313/featured/</guid>
       <description>&lt;h1 id=&#34;featured-work&#34;&gt;Featured Work&lt;/h1&gt;&#xA;&lt;p&gt;This is a list of interviews and articles about APIs, awards, press coverage of Hack the Gap over the years, and various topics about women in tech and leadership. Thank you to everyone who has given a spotlight to the things I&amp;rsquo;ve built and problems I&amp;rsquo;ve worked to solve in community with others.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Writing</title>
-      <link>https://kristenwomack.github.io/writing/</link>
+      <link>http://localhost:1313/writing/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://kristenwomack.github.io/writing/</guid>
+      <guid>http://localhost:1313/writing/</guid>
       <description>&lt;h1 id=&#34;writing&#34;&gt;Writing&lt;/h1&gt;&#xA;&lt;p&gt;This page is a collection of my published writing. My interests span many things. Here you&amp;rsquo;ll find this is a collection of varied topics from technology to the human experience.&lt;/p&gt;</description>
     </item>
   </channel>

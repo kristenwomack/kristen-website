@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [ 001-build-a-website, main ]
+    branches: [ main, master ]
 
 jobs:
   deploy:
