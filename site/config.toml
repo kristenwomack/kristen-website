@@ -1,6 +1,7 @@
 baseURL = "https://kristenwomack.github.io/"
 languageCode = "en-us"
 title = "Kristen Womack"
+contentDir = "pages"
 
 [params]
   author = "Kristen Womack"
