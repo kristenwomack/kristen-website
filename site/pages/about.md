@@ -7,6 +7,8 @@ date: 2025-09-22
   <figure><img src="/images/HtG17-SBH_8978.webp" alt="Hack the Gap 2017" loading="lazy"></figure>
   <figure><img src="/images/screenshot-2015-01-28.webp" alt="Reading stories to my son's class in Sign Language" loading="lazy"></figure>
   <figure><img src="/images/api-strat-2015.jpeg" alt="Speaking at APIStrat" loading="lazy"></figure>
+  <figure><img src="/images/IMG_1658.webp" alt="Photo" loading="lazy"></figure>
+  <figure><img src="/images/IMG_8352.webp" alt="Photo" loading="lazy"></figure>
   <figure><img src="/images/kristen-womack.jpeg" alt="Kristen Womack" loading="lazy"></figure>
   <figure><img src="/images/HtG19-SBH_5943.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
   <figure><img src="/images/HtG19-SBH_3479.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
