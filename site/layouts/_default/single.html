@@ -3,10 +3,8 @@
 {{ define "main" }}
   <article>
     <h1>{{ .Title }}</h1>
-    <p><strong>Date:</strong> {{ .Date.Format "2006-01-02" }}</p>
+    {{ if eq .Section "blog" }}<p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
     <div>{{ .Content }}</div>
-    <footer>
-      {{ with .Params.source_url }}<p>Source: <a href="{{ . }}">{{ . }}</a></p>{{ end }}
-    </footer>
+    {{ with .Params.source_url }}<footer><p>Source: <a href="{{ . }}">{{ . }}</a></p></footer>{{ end }}
   </article>
 {{ end }}

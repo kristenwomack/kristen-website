@@ -5,12 +5,17 @@ contentDir = "pages"
 
 [params]
   author = "Kristen Womack"
-  description = "Talks, papers, and writing by Kristen Womack"
+  description = "Kristen Womack is a product leader and technologist. She writes about APIs, developer experience, agentic systems, and platform strategy."
 
 [outputs]
   home = ["HTML", "RSS"]
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [permalinks]
   talks = "/talks/:year/:month/:slug/"
