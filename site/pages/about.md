@@ -4,15 +4,16 @@ date: 2025-09-22
 ---
 
 <div class="photo-gallery">
+  <figure><img src="/images/HtG17-SBH_8978.webp" alt="Hack the Gap 2017" loading="lazy"></figure>
+  <figure><img src="/images/screenshot-2015-01-28.webp" alt="Reading stories to my son's class in Sign Language" loading="lazy"></figure>
+  <figure><img src="/images/api-strat-2015.jpeg" alt="Speaking at APIStrat" loading="lazy"></figure>
+  <figure><img src="/images/kristen-womack.jpeg" alt="Kristen Womack" loading="lazy"></figure>
+  <figure><img src="/images/HtG19-SBH_5943.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
   <figure><img src="/images/HtG19-SBH_3479.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
   <figure><img src="/images/HtG19-SBH_3638.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
-  <figure><img src="/images/HtG19-SBH_5943.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
-  <figure><img src="/images/HtG17-SBH_8978.webp" alt="Hack the Gap 2017" loading="lazy"></figure>
   <figure><img src="/images/2018HTG.jpeg" alt="Hack the Gap 2018" loading="lazy"></figure>
-  <figure><img src="/images/40-40.jpeg" alt="40 Under 40 award" loading="lazy"></figure>
-  <figure><img src="/images/api-strat-2015.jpeg" alt="APIStrat 2015" loading="lazy"></figure>
-  <figure><img src="/images/bbdc.jpeg" alt="Best Buy Developer Conference" loading="lazy"></figure>
-  <figure><img src="/images/launch-2015.jpeg" alt="2015 launch event" loading="lazy"></figure>
+  <figure><img src="/images/IMG_7885.png" alt="Photo" loading="lazy"></figure>
+  <figure><img src="/images/IMG_0629.png" alt="Photo" loading="lazy"></figure>
 </div>
 
 > "A lethal combination of people leader, product nerd, and technical 'get it' factor." - [Ira Brooker](https://twitter.com/irabrooker)
