@@ -1,0 +1,14 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <p><a href="{{ "/blog/" | relURL }}">← Back to blog</a></p>
+</article>
+{{ end }}

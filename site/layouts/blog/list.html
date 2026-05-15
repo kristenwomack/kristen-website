@@ -1,0 +1,19 @@
+{{ define "title" }}Blog - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+
+  <ul class="post-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ else }}{{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}
