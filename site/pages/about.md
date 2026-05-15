@@ -3,12 +3,16 @@ title: "About Kristen"
 date: 2025-09-22
 ---
 
-<img src="/images/headshot.jpg" alt="Kristen Womack" class="headshot" loading="lazy">
-
 <div class="photo-gallery">
   <figure><img src="/images/HtG19-SBH_3479.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
   <figure><img src="/images/HtG19-SBH_3638.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
   <figure><img src="/images/HtG19-SBH_5943.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
+  <figure><img src="/images/HtG17-SBH_8978.webp" alt="Hack the Gap 2017" loading="lazy"></figure>
+  <figure><img src="/images/2018HTG.jpeg" alt="Hack the Gap 2018" loading="lazy"></figure>
+  <figure><img src="/images/40-40.jpeg" alt="40 Under 40 award" loading="lazy"></figure>
+  <figure><img src="/images/api-strat-2015.jpeg" alt="APIStrat 2015" loading="lazy"></figure>
+  <figure><img src="/images/bbdc.jpeg" alt="Best Buy Developer Conference" loading="lazy"></figure>
+  <figure><img src="/images/launch-2015.jpeg" alt="2015 launch event" loading="lazy"></figure>
 </div>
 
 > "A lethal combination of people leader, product nerd, and technical 'get it' factor." - [Ira Brooker](https://twitter.com/irabrooker)

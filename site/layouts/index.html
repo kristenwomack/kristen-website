@@ -1,10 +1,9 @@
 {{ define "title" }}{{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-  <h1>{{ .Site.Title }}</h1>
-  <section id="recent">
-    <h2>Recent</h2>
-    <!-- Aggregated list placeholder: newest-first -->
-    <p>Recent items will appear here.</p>
+  <section class="hero">
+    <img src="{{ "/images/headshot.jpg" | relURL }}" alt="Kristen Womack" class="headshot" loading="eager">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="tagline">Product leader, technologist, and community builder. Writing about APIs, developer experience, agentic systems, and platform strategy.</p>
   </section>
 {{ end }}
