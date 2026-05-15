@@ -18,8 +18,6 @@ date: 2025-09-22
   <figure><img src="/images/IMG_0629.png" alt="Photo" loading="lazy"></figure>
 </div>
 
-> "A lethal combination of people leader, product nerd, and technical 'get it' factor." - [Ira Brooker](https://twitter.com/irabrooker)
-
 Hi, I'm Kristen 👋🏼
 
 I'm an impact-driven product leader, technologist, and community builder. I'm a creator for makers and builders: developers, startups, and SMBs. I've been building APIs since 2008, and over 17 years I've led API platforms, developer programs, and product teams at companies ranging from scrappy startups to some of the most recognizable names in tech.
