@@ -22,7 +22,8 @@
     <meta name="twitter:description" content="{{ $desc }}" />
     <meta name="twitter:image" content="{{ $ogImage }}" />
 
-    <link rel="icon" type="image/jpeg" href="{{ "/images/headshot.jpg" | relURL }}" />
+    <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relURL }}" />
+    <link rel="apple-touch-icon" href="{{ "/images/headshot.jpg" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}" />
     {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}" />{{ end }}
   </head>
