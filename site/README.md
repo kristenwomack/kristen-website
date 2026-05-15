@@ -12,4 +12,4 @@ Quickstart
 
 Adding content
 
-- Add markdown files under `content/talks/`, `content/papers/`, `content/media/` with frontmatter: title, date, tags, source_url, canonical_id (optional)
+- Add markdown files under `pages/talks/`, `pages/papers/`, `pages/media/` with frontmatter: title, date, tags, source_url, canonical_id (optional)
