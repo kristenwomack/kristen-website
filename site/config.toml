@@ -15,3 +15,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [permalinks]
   talks = "/talks/:year/:month/:slug/"
   papers = "/papers/:year/:month/:slug/"
+  blog = "/blog/:year/:month/:slug/"
